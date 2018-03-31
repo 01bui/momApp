@@ -101,7 +101,7 @@
     <Content Include="images\im4.jpg" />
     <Content Include="images\im5.jpg" />
     <Content Include="images\im6.jpg" />
-    <Content Include="index - Copy.html" />
+    <Content Include="images\MoMLogo.JPG" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -140,6 +140,8 @@
     <Content Include="scenes\mushroom_fields\textures\Small_Basic_normal.png" />
     <Content Include="sounds\CanonInD-BrianCrain.mp3" />
     <Content Include="sounds\KissTheRain-Yiruma-75858.mp3" />
+    <Content Include="sounds\MoonTemple.wma" />
+    <Content Include="sounds\RiverFlowsInYouFRAMEVersion-Yiruma-5260584.mp3" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

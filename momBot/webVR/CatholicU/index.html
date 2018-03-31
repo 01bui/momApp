@@ -50,6 +50,16 @@
                     // Background music
                     var musicSupper = new BABYLON.Sound("Music", "sounds/CanonInD-BrianCrain.mp3", scene, null, { loop: true, autoplay: true });
 
+                    // Create logo plane for image
+                    var planeLogo = BABYLON.MeshBuilder.CreatePlane("logo", { width: 1.0, height: 1.0 }, scene);
+                    var planMaterialLogo = new BABYLON.StandardMaterial("LogoTexture", scene);
+                    planMaterialLogo.diffuseTexture = new BABYLON.Texture("images/MoMLogo.JPG", scene);
+                    planMaterialLogo.backFaceCulling = false;
+                    planeLogo.material = planMaterialLogo;
+                    planeLogo.position.x = 0;
+                    planeLogo.position.y = 2;
+                    planeLogo.position.z = 7;
+
                     // Baby Images options
                     // Create plane for image
                     var planeSupper = BABYLON.MeshBuilder.CreatePlane("Im", { width: 4.0, height: 2 }, scene);
